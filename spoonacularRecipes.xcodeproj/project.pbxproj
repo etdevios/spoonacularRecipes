@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1079E7D029ACBBC300D16854 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 1079E7CF29ACBBC300D16854 /* .gitignore */; };
 		B5B96ACE29ACD240009B31BB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B96ACD29ACD240009B31BB /* NetworkService.swift */; };
-		B5B96AD029ACD449009B31BB /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B96ACF29ACD449009B31BB /* Keys.swift */; };
 		B5FC5B8D29ACA0E40083631C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FC5B8C29ACA0E40083631C /* AppDelegate.swift */; };
 		B5FC5B8F29ACA0E40083631C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FC5B8E29ACA0E40083631C /* SceneDelegate.swift */; };
 		B5FC5B9129ACA0E40083631C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FC5B9029ACA0E40083631C /* MainViewController.swift */; };
@@ -20,12 +19,12 @@
 		B5FC5BA929ACA40B0083631C /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FC5BA829ACA40B0083631C /* FavoriteViewController.swift */; };
 		B5FC5BAB29ACA4230083631C /* CategoryRecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FC5BAA29ACA4230083631C /* CategoryRecipesViewController.swift */; };
 		B5FC5BAE29ACB5B40083631C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FC5BAD29ACB5B40083631C /* TabBarController.swift */; };
+		F6A9254C29AE40BC00415238 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A9254B29AE40BC00415238 /* Keys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1079E7CF29ACBBC300D16854 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B5B96ACD29ACD240009B31BB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
-		B5B96ACF29ACD449009B31BB /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 		B5FC5B8929ACA0E40083631C /* spoonacularRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spoonacularRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5FC5B8C29ACA0E40083631C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5FC5B8E29ACA0E40083631C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		B5FC5BA829ACA40B0083631C /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		B5FC5BAA29ACA4230083631C /* CategoryRecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRecipesViewController.swift; sourceTree = "<group>"; };
 		B5FC5BAD29ACB5B40083631C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F6A9254B29AE40BC00415238 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				B5B96ACD29ACD240009B31BB /* NetworkService.swift */,
-				B5B96ACF29ACD449009B31BB /* Keys.swift */,
+				F6A9254B29AE40BC00415238 /* Keys.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -223,7 +223,7 @@
 				B5B96ACE29ACD240009B31BB /* NetworkService.swift in Sources */,
 				B5FC5BAE29ACB5B40083631C /* TabBarController.swift in Sources */,
 				B5FC5B8F29ACA0E40083631C /* SceneDelegate.swift in Sources */,
-				B5B96AD029ACD449009B31BB /* Keys.swift in Sources */,
+				F6A9254C29AE40BC00415238 /* Keys.swift in Sources */,
 				B5FC5BA929ACA40B0083631C /* FavoriteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
